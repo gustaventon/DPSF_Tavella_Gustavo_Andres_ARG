@@ -48,13 +48,16 @@ ul{
 .menu{
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 250px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 50px;
     text-align: center;
-    width: 100%
+    width: 100%;
+    justify-content: center; /* Alinea los elementos en el centro horizontalmente */
+    padding: 0; 
     
 }
+
 
 .buscar{
 
@@ -650,4 +653,27 @@ footer {
 
 .productos p{
     margin: 0;
+}
+
+/* style.css */
+#loginButton {
+    background-color: black; /* Color de fondo */
+    border: none; /* Sin bordes */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Relleno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor en forma de mano */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición de color de fondo */
+    position: absolute; /* Posición absoluta */
+    right: 10px; /* Desplazamiento desde la derecha */
+    top: 10px; 
+}
+
+#loginButton:hover {
+    background-color: orangered; /* Color de fondo al pasar el cursor */
 }
