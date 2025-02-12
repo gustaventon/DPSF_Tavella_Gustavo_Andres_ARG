@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     modal.style.paddingTop = '60px';
 
     modal.innerHTML = `
-        <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 80%;">
+        <div style="background-color:orangered; margin: 5% auto; padding: 20px; border-radius: 30px; width: 40%;">
             <h2>Iniciar Sesión</h2>
             <label for="username">Usuario:</label>
             <input type="text" id="username" name="username"><br><br>
